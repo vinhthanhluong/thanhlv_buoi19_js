@@ -13,7 +13,7 @@ const setLocal = (arr) => {
 };
 
 const getLocal = () => {
-  return JSON.parse(localStorage.getItem("STAFF_LIST"));
+  return JSON.parse(localStorage.getItem("STAFF_LIST")) || [];
 };
 
 const getValue = () => {
