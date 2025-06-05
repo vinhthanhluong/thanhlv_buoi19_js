@@ -1,6 +1,6 @@
-import Staff from "./controllers/staff.js";
-import StaffList from "./controllers/staff-list.js";
-import Validation from "./controllers/validation.js";
+import Staff from "../js/controllers/staff.js";
+import StaffList from "../js/controllers/staff-list.js";
+import Validation from "../js/controllers/validation.js";
 
 // const asd = new Staff();
 export const getEle = (id) => document.getElementById(id);
